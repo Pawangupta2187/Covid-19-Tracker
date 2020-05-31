@@ -1,0 +1,1253 @@
+
+<html>
+
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161590291-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161590291-1');
+</script>
+	<title>Covid-19 Report</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+ 
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+
+
+
+<style type="text/css">
+
+    
+
+
+
+    * {
+
+  box-sizing: border-box;
+
+}
+
+
+
+.step_for_cure{
+
+  font-family: Montserrat,sans-serif;
+
+  margin: 10px;
+
+  background-image: linear-gradient(90deg, #9274b7, #3b4a8d);
+
+}
+
+.step_for_cure > h1, body > p {
+
+  text-align: center;
+
+}
+
+.step_for_cure > h1 {
+
+  margin: 40px;
+
+  color: #ffffff;
+
+}
+
+.step_for_cure > p {
+
+  font-size: 20px;
+
+  margin-top: 10px;
+
+  margin-bottom: 40px;
+
+}
+
+
+
+.card-container {
+
+  display: flex;
+
+}
+
+.card-container .card {
+
+  margin: 20px;
+
+  border-radius: 10px;
+
+  background-color: #ffffff;
+
+  overflow: hidden;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+.card-container .card .card-count-container {
+
+  display: flex;
+
+  align-items: center;
+
+  width: 100%;
+
+  height: 200px;
+
+  padding: 20px 0px;
+
+}
+
+.card-container .card .card-count {
+
+  font-weight: bold;
+
+  font-size: 100px;
+
+  width: 150px;
+
+  height: 150px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 50%;
+
+  margin: auto;
+
+  margin-right: -50px;
+
+  padding-right: 25px;
+
+  overflow: hidden;
+
+  color: #ffffff;
+
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+  transition: all 0.2s ease-in-out;
+
+}
+
+.card-container .card .card-content {
+
+  padding: 20px;
+
+  padding-top: 0px;
+
+}
+
+.card-container .card .card-content > h2 {
+
+  margin-top: 0px;
+
+  text-align: center;
+
+}
+
+.card-container .card .card-footer {
+
+  padding: 20px;
+
+  color: #ffffff;
+
+}
+
+.card-container .card:nth-child(1) .card-count, .card-container .card:nth-child(1) .card-footer {
+
+  background-image: linear-gradient(90deg, #f6671f, #c01b1c);
+
+}
+
+.card-container .card:nth-child(2) .card-count, .card-container .card:nth-child(2) .card-footer {
+
+  background-image: linear-gradient(90deg, #fec22f, #ea9826);
+
+}
+
+.card-container .card:nth-child(3) .card-count, .card-container .card:nth-child(3) .card-footer {
+
+  background-image: linear-gradient(90deg, #6fc6a9, #058ba9);
+
+}
+
+.card-container .card:hover .card-count {
+
+  width: 160px;
+
+  height: 160px;
+
+}
+
+@media (max-width: 767px) {
+
+  .card-container {
+
+    flex-wrap: wrap;
+
+  }
+
+}
+
+
+
+  </style>
+
+
+
+  <!--circle image-->
+
+  <style type="text/css">
+
+  	.caption div {
+
+    box-shadow: 0 0 5px #C8C8C8;
+
+    transition: all 0.3s ease 0s;
+
+}
+
+.img-circle {
+
+    border-radius: 50%;
+
+}
+
+.img-circle {
+
+    border-radius: 0;
+
+}
+
+
+
+.ratio {
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+
+    height: 0;
+
+    padding-bottom: 100%;
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+.img-circle {
+
+    border-radius: 50%;
+
+}
+
+.img-responsive {
+
+    display: block;
+
+    height: auto;
+
+    max-width: 100%;
+
+}
+
+  </style>
+<!--script for bar graph-->
+
+
+
+<!----->
+
+
+</head>
+
+<body>
+
+
+	<div class="step_for_cure" style="color:#ffffff;padding:10px;margin:0px">
+
+	<h1 style="margin:10px">COVID-19 Tracker (India)</h1>
+
+</div>
+
+	
+
+	<!--<div class="step_for_cure" style="margin:0px;">
+
+		<h1 >Covid-19 Detail</h1>
+
+	</div>-->
+
+
+<!--table for total cases-->
+
+	<header class="header">
+    <nav class="navbar navbar-expand-lg  py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Covid'19</a>
+            <button  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" style="color:white"><i class="fa fa-bars"></i></button>
+            
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a href="#Events" class="nav-link text-uppercase font-weight-bold">Precautions</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-uppercase font-weight-bold">Media</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link text-uppercase font-weight-bold">Research</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<!-- 
+	<table class="table table-hover  ">
+
+		<thead class="thead-dark">
+
+		<tr >			
+
+			<th scope="col">Confirmed</th>
+
+			<th scope="col">Death</th>
+
+			<th scope="col">Recovered</th>
+
+			<th scope="col">Active</th>
+
+			
+		</tr>
+
+	</thead>
+
+	<tbody>
+
+		<tr style="font-weight: bold" >
+
+			<td >0</td>
+
+			<td >0</td>
+
+			<td >0</td>
+
+			<td id="active">0</td>
+
+			
+
+		</tr>
+
+	</tbody>
+
+	</table> -->
+ 
+
+ <div class="container-fluid" style="padding-bottom: 10px;">
+<div class="card-deck">
+    <div class="card ">
+      <div class="card-body text-center" style="padding: 0px">
+        <div id="piechart_3d">
+        </div>
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-body text-center">
+        
+		        <div  class="card-deck">
+		        	<div class="card" style="background-color:#3366cc">
+				      <div class="card-body text-center" style="padding: 0px">
+				         <p class="card-text text-white" ><u><b>Confirmed</b></u></p>
+				         <p class="card-text text-white" id="confirm"><strong>000</strong></p>
+				      </div>
+				    </div>
+				    <div class="card "style="background-color:#dc3912">
+				      <div class="card-body text-center" style="padding: 0px">
+				         <p class="card-text text-white"><strong><u>Active</u></strong></p>
+				         <p class="card-text text-white" id="active"><strong>000</strong></p>
+				      </div>
+				    </div>
+				    <div class="card bg-primary ">
+				      <div class="card-body text-center" style="padding: 0px">
+				         <p class="card-text text-white"><strong><u>Recovered</u></strong></p>
+				         <p class="card-text text-white" id="recovered"><strong>000</strong></p>
+				      </div>
+				    </div>
+				    <div class="card" style="background-color:#ff9900" >
+				      <div class="card-body text-center" style="padding: 0px">
+				         <p class="card-text text-white"><u><strong>Death</strong></u></strong></p>
+				         <p class="card-text text-white" id="death"><strong>000</strong></p>
+				      </div>
+				    </div>
+		        	
+		        </div>
+
+
+
+ 
+      </div>
+    </div>
+    
+     
+  </div>
+
+</div>
+
+<div class=container-fluid style="margin-bottom: 10px;">
+<div class="card-deck">
+    <div class="card bg-white">
+      <div class="card-body text-center"  style="padding: 0px">
+        <div id="linechart_material">
+        </div>
+      </div>
+    </div>
+    <div class="card bg-white">
+      <div class="card-body text-center" style="padding: 0px">
+        <div id="recovered_bar">
+        </div>
+      </div>
+    </div>
+    <div class="card bg-white">
+      <div class="card-body text-center" style="padding: 0px">
+         <div id="death_bar">
+        </div>
+    </div>
+    
+     
+  </div>
+
+</div>
+
+</div>
+<!-- <div id="linechart_material" style="height: 370px; width: 100%;"></div> -->
+
+
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+		<!---->
+<!--table for countries data-->
+		<table class="table table-hover table-responsive-sm " >
+
+		<thead class="thead-dark">
+
+		<tr>			
+
+			<th scope="col">State</th>
+
+			<th scope="col">Confirm</th>
+
+			<th scope="col">Active</th>
+
+			<th scope="col">Recovered</th>
+
+			<th scope="col">Death</th>
+
+			<!-- <th scope="col">Recovered</th>
+
+			<th scope="col">Active</th>
+
+			<th scope="col">Critical</th>
+
+			<th scope="col">Cases Per Million</th> -->
+
+		</tr>
+
+	</thead>
+
+	<tbody id="state-table">
+
+		<tr >
+
+			
+
+			
+
+		</tr  >
+
+	</tbody>
+
+	</table>
+	
+
+
+
+
+
+
+<div class="step_for_cure" style="color:#ffffff;padding:15px">
+
+	<h1>About  COVID-19</h1>
+
+
+
+<p>Coronavirus disease (COVID-19) is an infectious disease caused by a new virus.
+
+The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing. You can protect yourself by washing your hands frequently, avoiding touching your face, and avoiding close contact (1 meter or 3 feet) with people who are unwell.
+
+</p>
+
+<p>HOW IT SPREADS</p>
+
+<p>
+
+Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes, nose, or mouth.</p>
+
+</div>
+
+
+
+	<div class="step_for_cure">
+
+						<h1> Protect Yourself</h1>
+
+
+
+						<div class="card-container">
+
+						  <div class="card">
+
+						    <div class="card-count-container">
+
+						      <div class="card-count">1</div>
+
+						    </div>
+
+						    
+
+						    <div class="card-content">
+
+						      <h2>HandWash</h2>
+
+						      Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.
+
+						    </div>
+
+						    
+
+						    <div class="card-footer">
+
+						        20 Seconds
+
+						    </div>
+
+						  </div>
+
+						  
+
+						  <div class="card">
+
+						    <div class="card-count-container">
+
+						      <div class="card-count">2</div>
+
+						    </div>
+
+						    <div class="card-content">
+
+						      <h2>Avoid Close Contact</h2>
+
+						    Avoid close contact with people who are sick. Put distance between yourself and other people if COVID-19 is spreading in your community. This is especially important for people who are at higher risk of getting very sick.
+
+						    </div>
+
+						    
+
+						    <div class="card-footer">
+
+						        Don't Touch
+
+						    </div>
+
+						  </div>
+
+						  
+
+						  <div class="card">
+
+						    <div class="card-count-container">
+
+						      <div class="card-count">3</div>
+
+						    </div>
+
+						    <div class="card-content">
+
+						      <h2>Stay At Home</h2>
+
+						      Stay home if you are sick, except to get medical care. Learn what to do if you are sick. 
+
+						     
+
+						    </div>
+
+						    
+
+						    <div class="card-footer">
+
+						      Self Quarantine
+
+						    </div>
+
+						  </div>
+
+						  
+
+						</div>
+
+
+
+
+
+
+
+						<div class="card-container">
+
+						<div class="card">
+
+						    <div class="card-count-container">
+
+						      <div class="card-count">4</div>
+
+						    </div>
+
+						    <div class="card-content">
+
+						      <h2>Cover Cough & Sneezes</h2>
+
+						     Cover your mouth and nose with a tissue when you cough or sneeze or use the inside of your elbow.
+
+						    </div>
+
+						    
+
+						    <div class="card-footer">
+
+						        Don't Spread
+
+						    </div>
+
+						  </div>
+
+						  <div class="card">
+
+						    <div class="card-count-container">
+
+						      <div class="card-count">5</div>
+
+						    </div>
+
+						    <div class="card-content">
+
+						      <h2>Wear Facemask</h2>
+
+						      If you are sick: You should wear a facemask when you are around other people (e.g., sharing a room or vehicle) and before you enter a healthcare provider’s office.
+
+						    </div>
+
+						    
+
+						    <div class="card-footer">
+
+						       Simple Mask is required
+
+						    </div>
+
+						  </div>
+
+						  <div class="card">
+
+						    <div class="card-count-container">
+
+						      <div class="card-count">6</div>
+
+						    </div>
+
+						    <div class="card-content">
+
+						      <h2>Clean and Disinfect</h2>
+
+						      Clean & disinfect frequently touched surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.
+
+						    </div>
+
+						    
+
+						    <div class="card-footer">
+
+						        Frequently
+
+						    </div>
+
+						  </div>
+
+						</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="step_for_cure" style="padding: 20px;">
+
+						<h1> Symptoms</h1>
+
+						<p style="text-align: left;font-size: 20px;color:#ffffff">
+
+							These symptoms may appear 2-14 days after exposure (based on the incubation period of MERS-CoV viruses).
+
+						</p>
+
+						<ul style="text-align: left;font-size: 20px;color:#ffffff">
+
+							<li>Fever</li>
+
+							<li>Cough</li>
+
+							<li>Shortness of breath</li>
+
+						</ul>
+
+
+
+
+
+						<div class="container">
+
+	
+
+    <div class="row" style="align-items: center;">
+
+        <div class="col-sm-3">
+
+            
+
+            <div  class="ratio img-responsive img-circle" style="background-image: url(download.jpg);"></div>
+
+             </div>
+
+     	<div class="col-sm-3">
+
+            
+
+            <div  class="ratio img-responsive img-circle" style="background-image: url(cough.jpg);"></div>
+
+           
+
+        </div>
+
+        <div class="col-sm-3">
+
+            
+
+            <div  class="ratio img-responsive img-circle" style="background-image: url(lungs.jpg);"></div>
+
+           
+
+        </div>
+
+
+
+    </div>
+
+						
+
+</div>
+
+
+
+</div>
+
+<div class="step_for_cure" style="padding: 20px;">
+
+	<h1>Know More..</h1>
+
+	<div class="row">
+
+			<div class="col-sm-6">
+
+				<div class="embed-responsive embed-responsive-16by9">
+
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/mOV1aBVYKGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				</div>
+
+			</div>
+
+			<div class="col-sm-6">
+
+				<div class="embed-responsive embed-responsive-16by9">
+
+				  <iframe width="853" height="480" src="https://www.youtube.com/embed/OOJqHPfG7pA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				</div>
+
+			</div>
+
+
+
+	</div>
+
+	<div class="row" style="margin-top:20px">
+
+			<div class="col-sm-6">
+
+				<div class="embed-responsive embed-responsive-16by9">
+
+				<iframe width="853" height="480" src="https://www.youtube.com/embed/1APwq1df6Mw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			</div>
+
+			</div>
+
+			<div class="col-sm-6">
+
+				<div class="embed-responsive embed-responsive-16by9">
+
+				  <iframe width="853" height="480" src="https://www.youtube.com/embed/-LKVUarhtvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				</div>
+
+			</div>
+
+
+
+	</div>
+
+
+
+</div>
+
+
+
+<div class="step_for_cure"  style="background-color:red;margin:0px;text-align: center;color:white">
+
+	Thankyou For Visit<br>
+
+	Protect Your Self<br>
+
+	<u>References</u><br>
+
+	<a href="https://www.who.int/">https://www.who.int/</a><br>
+
+	<a href="https://github.com/novelcovid/api">https://github.com/novel/api</a><br>
+
+	<a href="https://www.youtube.com/user/who">Who Youtube Channel</a>
+
+
+
+</div>
+
+
+
+</body>
+
+</html>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+	
+var active;
+var death;
+var recovered;
+var requestOptions = {
+  method: 'GET',
+  redirect: 'follow'
+};
+
+fetch("https://api.covidindiatracker.com/total.json", requestOptions)
+  .then(response => response.text())
+  .then(result => 
+  	{
+  		var obj=JSON.parse(result)
+  		//console.log(JSON.parse(result));
+  		//alert(obj.confirmed);
+  		active=obj.active;
+  		death = obj.deaths;
+  		recovered=obj.recovered;
+  		document.getElementById("confirm").innerHTML=obj.confirmed;
+  		document.getElementById("active").innerHTML=obj.active;
+  		document.getElementById("death").innerHTML=obj.deaths;
+  		document.getElementById("recovered").innerHTML=obj.recovered;
+
+
+
+
+  	})
+  .catch(error => console.log('error', error));
+
+
+//fetch state data
+fetch("https://api.covidindiatracker.com/state_data.json", requestOptions)
+  .then(response => response.text())
+  .then(result =>
+  {
+  	var obj=JSON.parse(result);
+  	console.log(obj[0]['state']);
+  	for(var st in obj)
+  	{
+  				if(obj[st]['state']!='Unknown*')
+  				//console.log(obj[st]['state']);
+
+	  		var table = document.getElementById("state-table");
+	 		var row = table.insertRow(st);
+	 		
+	 		var cell1 = row.insertCell(0);
+	 		var cell2 = row.insertCell(1);
+	  		var cell3 = row.insertCell(2);
+	  		var cell4 = row.insertCell(3);
+	  		var cell5 = row.insertCell(4);
+	  		
+	 		cell1.innerHTML = obj[st]['state'];
+	  		cell2.innerHTML = obj[st]['confirmed'];
+	  		cell3.innerHTML = obj[st]['active'];
+	  		cell4.innerHTML = obj[st]['recovered'];
+	  		cell5.innerHTML = obj[st]['deaths'];
+  	}
+  	console.log(JSON.parse(result));
+
+  	//console.log(resul
+  })
+  .catch(error => console.log('error', error));
+
+
+
+google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Total Cases'],
+          ['active',    active],
+          ['recovered',   recovered],
+          ['death',  death]
+         
+        ]);
+
+        var options = {
+          title: 'Total Cases In India',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+    
+
+      }
+          $(window).resize(function(){
+  chart.drawChart();
+});
+
+
+</script>
+<!--pei charrt for total cases-->
+<!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Total Cases'],
+          ['active',     11],
+          ['recovered',      2],
+          ['death',  2]
+         
+        ]);
+
+        var options = {
+          title: 'Total Cases In India',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script> -->
+
+    <script type="text/javascript">
+    	
+    	var requestOptions = {
+  		method: 'GET',
+  		redirect: 'follow'
+				};
+
+var d = new Date(); 
+console.log(d.getDate());
+console.log(d.getMonth());
+var date=d.getDate()-15;
+var month=d.getMonth()+1;
+if(date<0)
+{
+	date=30+date;
+	month--;
+
+}
+
+
+
+var dateindex=month.toString()+'/'+date.toString()+'/'+'20';
+//console.log(dateindex);
+
+
+
+let arr=[];
+let recovearr=[];
+let deatharr=[];
+
+fetch("https://api.covid19india.org/data.json", requestOptions)
+  .then(response => response.text())
+  .then(result => 
+  	{	var obj=JSON.parse(result);
+  		
+  	
+  		//console.log(obj['cases_time_series'][119]);
+  		var len=obj['cases_time_series'].length;
+  		for(var i=15;i>0;i--)
+  			{dateindex=month.toString()+'/'+date.toString()+'/'+'20';
+  				console.log(obj['cases_time_series'][len-i].date);
+  				arr.push({"Date":obj['cases_time_series'][len-i].date,"cases":parseInt(obj['cases_time_series'][len-i].dailyconfirmed)});
+  			recovearr.push({"Date":obj['cases_time_series'][len-i].date,"cases":parseInt(obj['cases_time_series'][len-i].dailyrecovered)});
+  			deatharr.push({"Date":obj['cases_time_series'][len-i].date,"cases":parseInt(obj['cases_time_series'][len-i].dailydeceased)});
+
+
+  			dateindex=month.toString()+'/'+date.toString()+'/'+'20';
+  				date++;
+  				if(date>30)
+  					{
+  						date=1;
+  						month++;;
+  					}
+
+  			}
+  			  				console.log(arr.length);
+  		  		drawChart1();
+  		drawChart2();
+  		drawChart3();
+  		//console.log(obj['timelineitems'][0][dateindex]);
+  		//console.log(JSON.parse(result));
+  		  	})
+    .catch(error => console.log('error', error));
+console.log(" value in array "+arr.length);
+
+
+
+
+//bar graph for cases
+    	google.load("visualization", "1", {packages:["corechart"]});
+google.setOnLoadCallback(drawChart1);
+function drawChart1() {
+  var data = google.visualization.arrayToDataTable([
+    ['Day', 'Cases'],
+    [arr[0].Date, arr[0].cases],
+    [arr[1].Date, arr[1].cases],
+    [arr[2].Date, arr[2].cases],
+    [arr[3].Date, arr[3].cases],
+    [arr[4].Date, arr[4].cases],
+    [arr[5].Date, arr[5].cases],
+    [arr[6].Date, arr[6].cases],
+    [arr[7].Date, arr[7].cases],
+    [arr[8].Date, arr[8].cases],
+    [arr[9].Date, arr[9].cases],
+    [arr[10].Date, arr[10].cases],
+    [arr[11].Date, arr[11].cases],
+    [arr[12].Date, arr[12].cases],
+    [arr[13].Date, arr[13].cases],
+    [arr[14].Date, arr[14].cases]
+  ]);
+
+  var options = {
+    title: 'Cases',
+    hAxis: {title: 'Day', titleTextStyle: {color: 'black'}},
+
+     };
+
+var chart = new google.visualization.ColumnChart(document.getElementById('linechart_material'));
+  chart.draw(data, options);
+}
+
+$(window).resize(function(){
+  drawChart1();
+  });
+
+
+
+//bar graph for recoverd
+    	google.load("visualization", "1", {packages:["corechart"]});
+google.setOnLoadCallback(drawChart2);
+function drawChart2() {
+  var data2 = google.visualization.arrayToDataTable([
+    ['Day', 'Recovered'],
+    [recovearr[0].Date, recovearr[0].cases],
+    [recovearr[1].Date, recovearr[1].cases],
+    [recovearr[2].Date, recovearr[2].cases],
+    [recovearr[3].Date, recovearr[3].cases],
+    [recovearr[4].Date, recovearr[4].cases],
+    [recovearr[5].Date, recovearr[5].cases],
+    [recovearr[6].Date, recovearr[6].cases],
+    [recovearr[7].Date, recovearr[7].cases],
+    [recovearr[8].Date, recovearr[8].cases],
+    [recovearr[9].Date, recovearr[9].cases],
+    [recovearr[10].Date, recovearr[10].cases],
+    [recovearr[11].Date, recovearr[11].cases],
+    [recovearr[12].Date, recovearr[12].cases],
+    [recovearr[13].Date, recovearr[13].cases],
+    [recovearr[14].Date, recovearr[14].cases]
+  ]);
+
+  var options2 = {
+    title: 'Recovered',
+    hAxis: {title: 'Day', titleTextStyle: {color: 'black'}},
+    
+     };
+
+var chart2 = new google.visualization.ColumnChart(document.getElementById('recovered_bar'));
+  chart2.draw(data2, options2);
+}
+
+$(window).resize(function(){
+  drawChart2();
+});
+
+
+
+//bar graph for death
+    	google.load("visualization", "1", {packages:["corechart"]});
+google.setOnLoadCallback(drawChart3);
+function drawChart3() {
+  var data3 = google.visualization.arrayToDataTable([
+    ['Day', 'Deaths'],
+    [deatharr[0].Date, deatharr[0].cases],
+    [deatharr[1].Date, deatharr[1].cases],
+    [deatharr[2].Date, deatharr[2].cases],
+    [deatharr[3].Date, deatharr[3].cases],
+    [deatharr[4].Date, deatharr[4].cases],
+    [deatharr[5].Date, deatharr[5].cases],
+    [deatharr[6].Date, deatharr[6].cases],
+    [deatharr[7].Date, deatharr[7].cases],
+    [deatharr[8].Date, deatharr[8].cases],
+    [deatharr[9].Date, deatharr[9].cases],
+    [deatharr[10].Date, deatharr[10].cases],
+    [deatharr[11].Date, deatharr[11].cases],
+    [deatharr[12].Date, deatharr[12].cases],
+    [deatharr[13].Date, deatharr[13].cases],
+    [deatharr[14].Date, deatharr[14].cases]
+  ]);
+
+  var options3 = {
+    title: 'Deaths',
+    hAxis: {title: 'Day', titleTextStyle: {color: 'black'}},
+    
+     };
+
+var chart3 = new google.visualization.ColumnChart(document.getElementById('death_bar'));
+  chart3.draw(data3, options3);
+}
+
+$(window).resize(function(){
+  drawChart3();
+});
+
+
+    </script>
+<!-- 
+    <script type="text/javascript">
+    	google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('Cases', 'Day');
+      data.addColumn('number', 'Active');
+      
+
+      data.addRows([
+        [1,  37.8],
+        [2,  30.9],
+        [3,  25.4],
+        [4,  11.7],
+        [5,  11.9],
+        [6,   8.8],
+        [7,   7.6],
+        [8,  12.3],
+        [9,  16.9],
+        [10, 12.8],
+        [11,  5.3],
+        [12,  6.6],
+        [13,  4.8],
+        [14,  4.2]
+      ]);
+
+      var options = {
+        chart: {
+          title: 'Cases Report',
+          subtitle: 'Last 15 days'
+        },
+        
+      };
+
+      var chart = new google.charts.Line(document.getElementById('linechart_material'));
+
+      chart.draw(data, google.charts.Line.convertOptions(options));
+
+
+      $(window).resize(function(){
+  chart.draw(data, google.charts.Line.convertOptions(options));
+
+  	});
+    }
+    </script> -->
+
+
+  <!--   <script type="text/javascript">
+
+
+    	fetch("https://api.covid19india.org/data.json", requestOptions)
+  .then(response => response.text())
+  .then(result => 
+  	{var obj=JSON.parse(result);
+  		
+  	
+  		//console.log(obj['cases_time_series'][119]);
+  		var len=obj['cases_time_series'].length;
+  		for(var i=15;i>0;i--)
+  			{
+  				console.log(obj['cases_time_series'][len-i]);
+  				arr.push({"Date":obj['cases_time_series'][len-i].date,"cases":obj['cases_time_series'][len-i].dailyconfirmed});
+  			recovearr.push({"Date":obj['cases_time_series'][len-i].date,"cases":obj['cases_time_series'][len-i].dailyconfirmed});
+  			deatharr.push({"Date":obj['cases_time_series'][len-i].date,"cases":obj['cases_time_series'][len-i].dailyconfirmed});
+
+  			}
+  		  	})
+    .catch(error => console.log('error', error));
+    </script> -->
