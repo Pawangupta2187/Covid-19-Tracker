@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="popup.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+     <script>
+$(document).ready(function(){
+     $('bt').trigger('click');
+  });
+</script>
+
+</head>
+<body>
+<h1>Popup/Modal Windows without JavaScript</h1>
+<div class="box">
+    <a class="button" href="#popup1" id="bt">Let me Pop up</a>
+</div>
+
+<div id="popup1" class="overlay">
+    <div class="popup">
+        <h2>Here i am</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+            Thank to pop me out of that button, but now i'm done so you can close this window.
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+	window.onload = function(){
+   document.getElementById("bt").click();   
+};    
+
+</script>

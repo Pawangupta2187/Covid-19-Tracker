@@ -49,30 +49,15 @@
 <body>
 
 
-	<div class="step_for_cure" style="color:#ffffff;padding:10px;margin:0px">
+<div class="step_for_cure" style="color:#ffffff;padding:10px;margin:0px">
 
-	<h1 style="margin:10px">COVID-19 Tracker (India)</h1>
+    	<h1 style="margin:10px">COVID-19 Tracker (India)</h1>
 
-<!--poppup-->
-<div class="box">
-    <a class="button" href="#popup1" id="bt" >Tips of the Day</a>
+    <!--poppup-->
+    <div class="box">
+        <a class="button" href="#popup1" id="bt" >Tips of the Day</a>
+    </div>
 </div>
-
-
-
-
-</div>
-
-	
-
-	<!--<div class="step_for_cure" style="margin:0px;">
-
-		<h1 >Covid-19 Detail</h1>
-
-	</div>-->
-
-
-<!--table for total cases-->
  <header style="background-color: #3366cc;color:white;padding-bottom: 10px">
     <nav class="navbar navbar-expand-lg  py-3">
         <div class="container"><div class="navbar-brand text-uppercase font-weight-bold ">Covid'19</div>
@@ -83,7 +68,7 @@
                     <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold " style="color:white">Home <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a href="media.html" class="nav-link text-uppercase font-weight-bold" style="color:white">Media</a></li>
                     <li class="nav-item"><a href="precautions.html" class="nav-link text-uppercase font-weight-bold" style="color:white">Protect Yourself</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" style="color:white">Researhes</a></li>
+                    <li class="nav-item"><a href="helpline.html" class="nav-link text-uppercase font-weight-bold" style="color:white">Helpline</a></li>
                    <li class="nav-item"><a href="about.html" class="nav-link text-uppercase font-weight-bold" style="color:white">About</a></li>
                 </ul>
             </div>
@@ -91,92 +76,76 @@
     </nav>
 </header> 
 
-
-
-
-
- <div class="container-fluid" style="padding-bottom: 10px;padding-top: 10px;">
-<div class="card-deck">
-    <div class="card ">
-      <div class="card-body text-center" style="padding: 0px">
-        <div id="piechart_3d">
+<div class="container-fluid" style="padding-bottom: 10px;padding-top: 10px;">
+      <div class="card-deck">
+          <div class="card ">
+            <div class="card-body text-center" style="padding: 0px">
+              <div id="piechart_3d">
+              </div>
+            </div>
+          </div>
+          <div class="card ">
+            <div class="card-body text-center">
+              <div  class="card-deck">
+      		        	<div class="card" style="background-color:#3366cc">
+      				      <div class="card-body text-center" style="padding: 0px">
+      				         <p class="card-text text-white" ><u><b>Confirmed</b></u></p>
+      				         <p class="card-text text-white" id="confirm"><strong>000</strong></p>
+      				      </div>
+      				    </div>
+      				    <div class="card "style="background-color:#dc3912">
+      				      <div class="card-body text-center" style="padding: 0px">
+      				         <p class="card-text text-white"><strong><u>Active</u></strong></p>
+      				         <p class="card-text text-white" id="active"><strong>000</strong></p>
+      				      </div>
+      				    </div>
+      				    <div class="card bg-primary ">
+      				      <div class="card-body text-center" style="padding: 0px">
+      				         <p class="card-text text-white"><strong><u>Recovered</u></strong></p>
+      				         <p class="card-text text-white" id="recovered"><strong>000</strong></p>
+      				      </div>
+      				    </div>
+      				    <div class="card" style="background-color:#ff9900" >
+      				      <div class="card-body text-center" style="padding: 0px">
+      				         <p class="card-text text-white"><u><strong>Death</strong></u></p>
+      				         <p class="card-text text-white" id="death"><strong>000</strong></p>
+      				      </div>
+      				    </div>
+      		        	
+      		    </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="card ">
-      <div class="card-body text-center">
-        
-		        <div  class="card-deck">
-		        	<div class="card" style="background-color:#3366cc">
-				      <div class="card-body text-center" style="padding: 0px">
-				         <p class="card-text text-white" ><u><b>Confirmed</b></u></p>
-				         <p class="card-text text-white" id="confirm"><strong>000</strong></p>
-				      </div>
-				    </div>
-				    <div class="card "style="background-color:#dc3912">
-				      <div class="card-body text-center" style="padding: 0px">
-				         <p class="card-text text-white"><strong><u>Active</u></strong></p>
-				         <p class="card-text text-white" id="active"><strong>000</strong></p>
-				      </div>
-				    </div>
-				    <div class="card bg-primary ">
-				      <div class="card-body text-center" style="padding: 0px">
-				         <p class="card-text text-white"><strong><u>Recovered</u></strong></p>
-				         <p class="card-text text-white" id="recovered"><strong>000</strong></p>
-				      </div>
-				    </div>
-				    <div class="card" style="background-color:#ff9900" >
-				      <div class="card-body text-center" style="padding: 0px">
-				         <p class="card-text text-white"><u><strong>Death</strong></u></p>
-				         <p class="card-text text-white" id="death"><strong>000</strong></p>
-				      </div>
-				    </div>
-		        	
-		        </div>
-
-
-
- 
-      </div>
-    </div>
-    
-     
-  </div>
-
 </div>
 
 
 <div class="container-fluid" style="width: 100%;padding-bottom: 10px">
- <select name="state" id="state_data" style="width:100%;">
+ <select name="state" id="state_data" style="width:100%;" onchange="changestate(this)">
    <option value="India">India</option>
   </select>
 </div>
 
 <div class=container-fluid style="margin-bottom: 10px;">
-<div class="card-deck">
-    <div class="card bg-white">
-      <div class="card-body text-center"  style="padding: 0px">
-        <div id="linechart_material">
+  <div class="card-deck">
+      <div class="card bg-white">
+        <div class="card-body text-center"  style="padding: 0px">
+          <div id="linechart_material">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="card bg-white">
-      <div class="card-body text-center" style="padding: 0px">
-        <div id="recovered_bar">
+      <div class="card bg-white">
+        <div class="card-body text-center" style="padding: 0px">
+          <div id="recovered_bar">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="card bg-white">
-      <div class="card-body text-center" style="padding: 0px">
-         <div id="death_bar">
-        </div>
-    </div>
-    
-     
+      <div class="card bg-white">
+        <div class="card-body text-center" style="padding: 0px">
+           <div id="death_bar">
+          </div>
+        </div>     
+      </div>
   </div>
-
-</div>
-
 </div>
 <!-- <div id="linechart_material" style="height: 370px; width: 100%;"></div> -->
 
@@ -187,67 +156,33 @@
 		<!---->
 <!--table for countries data-->
 		<table class="table table-hover table-responsive-sm " >
+  		<thead class="thead-dark">
+        <tr>			
+          <th scope="col">State</th>
+          <th scope="col">Confirm</th>
+          <th scope="col">Active</th>
+          <th scope="col">Recovered</th>
+          <th scope="col">Death</th>
+  			</tr>
+      </thead>
+      <tbody id="state-table">
+    		<tr >
 
-		<thead class="thead-dark">
-
-		<tr>			
-
-			<th scope="col">State</th>
-
-			<th scope="col">Confirm</th>
-
-			<th scope="col">Active</th>
-
-			<th scope="col">Recovered</th>
-
-			<th scope="col">Death</th>
-
-			<!-- <th scope="col">Recovered</th>
-
-			<th scope="col">Active</th>
-
-			<th scope="col">Critical</th>
-
-			<th scope="col">Cases Per Million</th> -->
-
-		</tr>
-
-	</thead>
-
-	<tbody id="state-table">
-
-		<tr >
-
-			
-
-			
-
-		</tr  >
-
-	</tbody>
-
-	</table>
+        </tr>
+      </tbody>
+    </table>
 	
 
 
 
 
-<div class="step_for_cure"  style="background-color:red;margin:0px;text-align: center;color:white">
-
-	Thankyou For Visit<br>
-
-	Protect Your Self<br>
-
-	<u>References</u><br>
-
-	<a href="https://www.who.int/">https://www.who.int/</a><br>
-
-	<a href="https://github.com/novelcovid/api">https://github.com/novel/api</a><br>
-
-	<a href="https://www.youtube.com/user/who">Who Youtube Channel</a>
-
-
-
+<div class="container-fluid text-center text-white" style="background-color: #3366cc">
+  <p>Made by- Pawan Gupta</p>
+  <p>
+      <a href="https://www.linkedin.com/in/pawangupta2187" style="color: black;" class="fab fa-linkedin"></a>
+      &nbsp;&nbsp;&nbsp;
+      <a href="https://github.com/pawangupta2187" style="color: black;" class="fab fa-github"></a>
+  </p>
 </div>
 
 <div id="popup1" class="overlay">
@@ -263,6 +198,8 @@
 </body>
 
 </html>
+
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
 	
@@ -313,7 +250,7 @@ fetch("https://api.covidindiatracker.com/state_data.json", requestOptions)
 			       var option = document.createElement("OPTION");
 			       option.innerHTML = obj[st]['state'];
 			       option.value = obj[st]['state'];
-			       option.disabled=true;
+			       //option.disabled=true;
 			       ddl.options.add(option);
 
 			    //data for table
@@ -369,52 +306,30 @@ google.charts.load("current", {packages:["corechart"]});
 
 
 </script>
-<!--pei charrt for total cases-->
-<!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
 <script type="text/javascript">
-      google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Task', 'Total Cases'],
-          ['active',     11],
-          ['recovered',      2],
-          ['death',  2]
-         
-        ]);
-
-        var options = {
-          title: 'Total Cases In India',
-          is3D: true,
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
-        chart.draw(data, options);
-      }
-    </script> -->
-
-    <script type="text/javascript">
     	
     	var requestOptions = {
   		method: 'GET',
   		redirect: 'follow'
 				};
 
-var d = new Date(); 
-console.log(d.getDate());
-console.log(d.getMonth());
-var date=d.getDate()-15;
-var month=d.getMonth()+1;
-if(date<0)
-{
-	date=30+date;
-	month--;
+// var d = new Date(); 
+// console.log(d.getDate());
+// console.log(d.getMonth());
+// var date=d.getDate()-15;
+// var month=d.getMonth()+1;
+// if(date<0)
+// {
+// 	date=30+date;
+// 	month--;
 
-}
+// }
 
 
 
-var dateindex=month.toString()+'/'+date.toString()+'/'+'20';
+//var dateindex=month.toString()+'/'+date.toString()+'/'+'20';
 //console.log(dateindex);
 
 
@@ -432,31 +347,123 @@ fetch("https://api.covid19india.org/data.json", requestOptions)
   		//console.log(obj['cases_time_series'][119]);
   		var len=obj['cases_time_series'].length;
   		for(var i=15;i>0;i--)
-  			{dateindex=month.toString()+'/'+date.toString()+'/'+'20';
+  			{//dateindex=month.toString()+'/'+date.toString()+'/'+'20';
   				console.log(obj['cases_time_series'][len-i].date);
   				arr.push({"Date":obj['cases_time_series'][len-i].date,"cases":parseInt(obj['cases_time_series'][len-i].dailyconfirmed)});
   			recovearr.push({"Date":obj['cases_time_series'][len-i].date,"cases":parseInt(obj['cases_time_series'][len-i].dailyrecovered)});
   			deatharr.push({"Date":obj['cases_time_series'][len-i].date,"cases":parseInt(obj['cases_time_series'][len-i].dailydeceased)});
 
 
-  			dateindex=month.toString()+'/'+date.toString()+'/'+'20';
-  				date++;
-  				if(date>30)
-  					{
-  						date=1;
-  						month++;;
-  					}
 
   			}
   			  				console.log(arr.length);
   		  		drawChart1();
   		drawChart2();
   		drawChart3();
-  		//console.log(obj['timelineitems'][0][dateindex]);
-  		//console.log(JSON.parse(result));
+  		
   		  	})
     .catch(error => console.log('error', error));
-console.log(" value in array "+arr.length);
+//console.log(" value in array "+arr.length);
+
+
+
+
+
+
+
+//change data for state
+
+	function changestate(str)
+	{
+		
+		 var strText = str.options[str.selectedIndex].innerHTML;
+     console.log("change data called= ",strText);
+       // var selectedValue = ddlFruits.value;
+arr=[];
+recovearr=[];
+deatharr=[];
+var find=false;
+	fetch("https://api.rootnet.in/covid19-in/stats/history", requestOptions)
+  .then(response => response.text())
+  .then(result =>
+  {
+  	var obj=JSON.parse(result);
+  	var len=obj['data'].length
+  	for(var i=15;i>0;i--)
+  			{
+  					if(strText=='India')
+  					{find=true;
+  							arr.push( {
+	  								"Date":obj['data'][len-i]['day'] , 
+	  								"cases":Math.abs(obj['data'][len-(i+1)]['summary']['total']-obj['data'][len-i]['summary']['total'] ) } );
+	  							recovearr.push( {
+	  								"Date":obj['data'][len-i]['day'] ,
+	  								"cases":Math.abs(obj['data'][len-(i+1)]['summary']['discharged']-obj['data'][len-i]['summary']['discharged']) });
+	  							deatharr.push( { 
+	  								"Date":obj['data'][len-i]['day'] , 
+	  								"cases":Math.abs(obj['data'][len-(i+1)]['summary']['deaths']-obj['data'][len-i]['summary']['deaths']) } );
+
+
+  							continue;	
+  					}
+  				 console.log(obj['data'][len-i]['day']);
+  				// console.log(obj['data'][len-i]['summary']['total']);
+  				// console.log(obj['data'][len-i]['summary']['discharged']);
+  				// console.log(obj['data'][len-i]['summary']['deaths']);
+  				// console.log(obj['data'][len-i]['regional']);
+	  				for(j=0;j<obj['data'][len-i]['regional'].length;j++)
+	  				{
+	  					if(obj['data'][len-i]['regional'][j]['loc']==strText)
+	  						{find=true;
+	  							arr.push( {
+	  								"Date":obj['data'][len-i]['day'] , 
+	  								"cases":Math.abs(obj['data'][len-(i+1)]['regional'][j]['totalConfirmed']-obj['data'][len-i]['regional'][j]['totalConfirmed']) } );
+	  							recovearr.push( {
+	  								"Date":obj['data'][len-i]['day'] ,
+	  								"cases":Math.abs(obj['data'][len-(i+1)]['regional'][j]['discharged']-obj['data'][len-i]['regional'][j]['discharged']) });
+	  							deatharr.push( { 
+	  								"Date":obj['data'][len-i]['day'] , 
+	  								"cases":Math.abs(obj['data'][len-(i+1)]['regional'][j]['deaths']-obj['data'][len-i]['regional'][j]['deaths']) } );
+
+	  							console.log(Math.abs(obj['data'][len-(i+1)]['regional'][j]['totalConfirmed']-obj['data'][len-i]['regional'][j]['totalConfirmed']));
+	  							}
+	  				//console.log(obj['data'][len-i]['regional']);
+	  					}
+  			}
+        if(find==false)
+  	     alert("NO Case Found Till Yet");
+       else
+       {
+  	     drawChart1();
+  	     drawChart2();
+  	     drawChart3();
+       }
+
+  	//console.log(JSON.parse(result));
+
+  	//console.log(resul
+  })
+  .catch(error => console.log('error', error));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -580,31 +587,11 @@ $(window).resize(function(){
     </script>
 
 
-  <!--   <script type="text/javascript">
-
-
-    	fetch("https://api.covid19india.org/data.json", requestOptions)
-  .then(response => response.text())
-  .then(result => 
-  	{var obj=JSON.parse(result);
-  		
-  	
-  		//console.log(obj['cases_time_series'][119]);
-  		var len=obj['cases_time_series'].length;
-  		for(var i=15;i>0;i--)
-  			{
-  				console.log(obj['cases_time_series'][len-i]);
-  				arr.push({"Date":obj['cases_time_series'][len-i].date,"cases":obj['cases_time_series'][len-i].dailyconfirmed});
-  			recovearr.push({"Date":obj['cases_time_series'][len-i].date,"cases":obj['cases_time_series'][len-i].dailyconfirmed});
-  			deatharr.push({"Date":obj['cases_time_series'][len-i].date,"cases":obj['cases_time_series'][len-i].dailyconfirmed});
-
-  			}
-  		  	})
-    .catch(error => console.log('error', error));
-    </script> -->
+  
     <script type="text/javascript">
 	window.onload = function(){
    document.getElementById("bt").click();   
 };    
 
 </script>
+
